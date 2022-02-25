@@ -1,5 +1,13 @@
 "use strict";
 
+function togleMenu() {
+  const body = document.body;
+  body.classList.toggle("final");
+}
+const btn = document.querySelector("button");
+btn.addEventListener("click", function () {
+  togleMenu();
+});
 // const restaurant = {
 //   name: "Classico Italiano",
 //   location: "Via Angelo Tavanti 23, Firenza, Italy",
